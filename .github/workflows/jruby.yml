@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: ${{ matrix.ruby }}-latest
+    runs-on: ${{ matrix.os }}-latest
     strategy:
       fail-fast: false
       matrix:
